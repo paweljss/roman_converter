@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konwerter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<div id="wrapper">
+    <header>
+        <h1>Konwerter <div id="subtitle">liczb rzymskich na dziesiętne
+                <div />
+        </h1>
+        <div class="button_container">
+            <a href="#modal">
+                <button class="round_red">?</button>
+            </a>
+        </div>
+    </header>
+    <main>
+        <input id="get_number" class="in_out" type="text" placeholder="Wpisz rzymską liczbę">
+
+        <div id="result" class="in_out">Twój wynik:</div>
+
+        <button id="change_system">III => 3</button>
+        <button id="convert">Oblicz</button>
+
+    </main>
+    <div id="modal">
+        <header>
+            <div id="blind_div"></div>
+            <h2>Jak używać konwertera</h2>
+            <div class="button_container">
+                <a href="#">
+                    <button class="round_red">X<button />
+                </a>
+            </div>
+        </header>
+
+        <article>
+            <section>
+                <p>Wpisz wielkimi literami liczbę, którą chcesz przeliczyć, następnie naciśnij przycisk "Oblicz".</p>
+                <p>Jeśli chcesz zmienić system, przeliczyć cyfry arabskie na rzymskie, naciśnij czerwony przycisk "III
+                    =>
+                    3".</p>
+                <p>Stosować można tylko określone znaki w systemie rzymskim, wielkimi literami oraz liczby całkowite.
+                </p>
+            </section>
+            <h4>O liczbach rzymskich </h4>
+            <p>Rzymianie swój system liczbowy przyjęli od Etrusków. Zmodyfikowali go między VI a V wiekiem przed
+                Chrystusem. Nie jest pewne, na czym wzorowano się, projektując wygląd znaków. Być może "I" kojarzono z 1
+                palcem. "V" to 5 palców i przypominała otwartą dłoń. </p>
+            <p>
+                System rzymski jest addytywny, co oznacza, że kolejne liczby tworzy się przez dodawanie. Przykładowo 3 =
+                I + I + I. Warto zaznaczać, że występowało też odejmowanie, gdy mniejszy znak pojawiał się przed
+                większym: 4 = IV.
+            </p>
+            <p>
+
+            <ul>Miał również parę innych zasad, między innymi:
+                <li>do zapisu używa się co najwyżej trzech takich samych symboli I, X, C, M</li>
+                <li>nie mogą ze soba sąsiadować V, L, D</li>
+                <li>znak I może stać tylko przed V, X</li>
+                <li>znak X może stać tylko przed L, C</li>
+                <li>znak C może stać tylko przed D, M</li>
+            </ul>
+            </p>
+
+            <p>
+                Rzymskie liczby, mimo, że dość wygodne w codziennym użyciu, miały kilka wad. Nie dało się, bez
+                dodatkowych zasad, zapisywać liczb większych niż 3999. Nie można było zapisywać ułaków. Trudno na nich
+                było dokonywać działań arytmetycznych. Mimo to, system rzymski był popoularny do końca średniowiecza. Od
+                XVI wieku był stosowany równolegle z systemem dziesiętnym- liczbami arabskimi. Ostatecznie został
+                wyparty w codziennym użyciu, głównie przez problemy związane z działaniami matematycznymi.
+            </p>
+            <section>
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="2">Tabela znaków</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>M</td>
+                            <td>1000</td>
+                        </tr>
+                        <tr>
+                            <td>CM</td>
+                            <td>900</td>
+                        </tr>
+                        <tr>
+                            <td>D</td>
+                            <td>500</td>
+                        </tr>
+                        <tr>
+                            <td>CD</td>
+                            <td>400</td>
+                        </tr>
+                        <tr>
+                            <td>C</td>
+                            <td>100</td>
+                        </tr>
+                        <tr>
+                            <td>XC</td>
+                            <td>90</td>
+                        </tr>
+                        <tr>
+                            <td>L</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>XL</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>X</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>IX</td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <td>V</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>IV</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>I</td>
+                            <td>1</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </section>
+        </article>
+
+    </div>
+    <footer>
+        &copy <a href="https://jasnastronasieci.pl">jasnastronasieci.pl</a> 2023
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+
+</html>

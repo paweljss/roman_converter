@@ -1,0 +1,32 @@
+Wpisz wielkimi literami liczbę, którą chcesz przeliczyć, następnie naciśnij przycisk "Oblicz".
+Jeśli chcesz zmienić system, przeliczyć cyfry arabskie na rzymskie, naciśnij czerwony przycisk "III => 3".
+Stosować można tylko określone znaki w systemie rzymskim, wielkimi literami oraz liczby całkowite.
+
+
+O liczbach rzymskich 
+
+Rzymianie swój system liczbowy przyjęli od Etrusków. Zmodyfikowali go między VI a V wiekiem przed Chrystusem. Nie jest pewne, na czym wzorowano się, projektując wygląd znaków. Być może "I" kojarzono z 1 palcem. "V" to 5 palców i przypominała otwartą dłoń. 
+
+System rzymski jest addytywny, co oznacza, że kolejne liczby tworzy się przez dodawanie. Przykładowo 3 = I + I + I. Warto zaznaczać, że występowało też odejmowanie, gdy mniejszy znak pojawiał się przed większym: 4 = IV. Miał również parę innych zasad, między innymi:
+- do zapisu używa się co najwyżej trzech takich samych symboli I, X, C, M
+- nie mogą ze soba sąsiadować V, L, D
+- znak I może stać tylko przed V, X
+- znak X może stać tylko przed L, C
+- znak C może stać tylko przed D, M
+
+Rzymskie liczby, mimo, że dość wygodne w codziennym użyciu, miały kilka wad. Nie dało się, bez dodatkowych zasad, zapisywać liczb większych niż 3999. Nie można było zapisywać ułaków. Trudno na nich było dokonywać działań arytmetycznych. Mimo to, system rzymski był popoularny do końca średniowiecza. Od XVI wieku był stosowany równolegle z systemem dziesiętnym- liczbami arabskimi. Ostatecznie został wyparty w codziennym użyciu, głównie przez problemy związane z działaniami matematycznymi. 
+
+Tabela znaków
+M 	1000
+CM 	900
+D 	500
+CD 	400
+C 	100
+XC 	90
+L 	50
+XL 	40
+X 	10
+IX 	9
+V 	5
+IV 	4
+I 	1
